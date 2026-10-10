@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Bites | Home</title>
+    <meta name="description" content="Discover Potato Bites, your destination for crispy fries, delicious potato dishes, and our passion for everything potato.">
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="icon" type="image/png" href="Potato.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Potato Bites</h1>
+        <p>Everything Potato. All Day.</p>
+    </header>
+    <nav class="navbar" aria-label="Main navigation">
+        <button class="hamburger" id="hamburger" type="button" aria-label="Toggle navigation" aria-controls="nav-links" aria-expanded="false">☰</button>
+        <div class="nav-links" id="nav-links">
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <section class="home-media" aria-label="Potato fries video">
+            <video class="fries-video" autoplay muted loop playsinline controls>
+                <source src="friesvid.webm" type="video/webm">
+                Your browser does not support video playback.
+            </video>
+            <audio id="bg-music" autoplay loop>
+                <source src="bgaudio.mp3" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+        </section>
+
+        <section class="story-section">
+            <h2>Our Story</h2>
+            <div class="story-grid">
+                <div class="story-card"><h3>The Beginning</h3><p>Potato Bites started as a simple idea between friends who shared one thing in common: an obsession with potatoes.</p></div>
+                <div class="story-card"><h3>The Mission</h3><p>What began as homemade fries turned into a mission: to create the ultimate potato-based fast food experience.</p></div>
+                <div class="story-card"><h3>The Growth</h3><p>After months of perfecting recipes, Potato Bites was born serving high-quality, creative potato dishes.</p></div>
+                <div class="story-card"><h3>Today</h3><p>We continue to grow, but our passion stays the same: bringing joy through every potato bite.</p></div>
+                <div class="story-card"><h3>Why Potatoes?</h3><p>Because they're crispy, soft, cheesy, golden, and perfect in every form. Who wouldn't want the perfect spud?</p></div>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <h2>⭐ Customer Reviews</h2>
+            <div class="reviews-box">
+                <table>
+                    <caption>What Our Customers Say</caption>
+                    <thead><tr><th>Customer</th><th>Favorite Item</th><th>Rating</th><th>Review</th></tr></thead>
+                    <tbody>
+                        <tr><td>Alex</td><td>Classic Fries</td><td><span class="stars">★★★★★</span></td><td>Very crispy and delicious!</td></tr>
+                        <tr><td>Mia</td><td>Twister Fries</td><td><span class="stars">★★★★★</span></td><td>The seasoning is amazing.</td></tr>
+                        <tr><td>Josh</td><td>Cheesy Loaded Fries</td><td><span class="stars">★★★★<span class="empty-star">★</span></span></td><td>Lots of cheese and bacon. Really good!</td></tr>
+                        <tr><td>Sofia</td><td>Loaded Baked Potato</td><td><span class="stars">★★★★★</span></td><td>Huge, filling, and tasty!</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <p>© 2026 Potato Bites | Made by GZVA.</p>
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/christructure"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit Potato Bites on Facebook">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/christructure"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit Potato Bites on Instagram">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>const audio = document.getElementById("bg-music"); if (audio) audio.volume = 0.05;</script>
+</body>
+</html>

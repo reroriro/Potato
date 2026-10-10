@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Bites | Contact Us</title>
+    <meta name="description" content="Contact Potato Bites for inquiries, feedback, and customer reviews. Get in touch and share your Potato Bites experience.">
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="icon" type="image/png" href="Potato.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Potato Bites</h1>
+        <p>Everything Potato. All Day.</p>
+    </header>
+    <nav class="navbar" aria-label="Main navigation">
+        <button class="hamburger" id="hamburger" type="button" aria-label="Toggle navigation" aria-controls="nav-links" aria-expanded="false">☰</button>
+        <div class="nav-links" id="nav-links">
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-card"><h3>Address</h3><p>123 Potato Street, Food City</p></div>
+                <div class="contact-card"><h3>Phone</h3><p>+63 912 345 6789</p></div>
+                <div class="contact-card"><h3>Email</h3><p>potatobites@gmail.com</p></div>
+                <div class="contact-card"><h3>Opening Hours</h3><p>Monday – Sunday<br>10:00 AM – 10:00 PM</p></div>
+            </div>
+        </section>
+        <section class="review-form-section">
+            <h2>🍟 Leave Us a Review</h2>
+            <p class="form-intro">Tell us about your Potato Bites experience!</p>
+            <form action="#" method="get">
+                <fieldset><legend>Customer Information</legend>
+                    <label for="name">Name:</label><input id="name" type="text" name="name" placeholder="Enter your name" maxlength="25" required>
+                    <label for="email">Email:</label><input id="email" type="email" name="email" placeholder="Enter your email" required>
+                </fieldset>
+                <fieldset><legend>Your Review</legend>
+                    <label for="favorite">Favorite Potato Bites Item:</label>
+                    <select id="favorite" name="favorite" required><option value="">-- Select an item --</option><option>Classic Fries</option><option>Twister Fries</option><option>Cheesy Loaded Fries</option><option>Hashbrown Burger</option><option>Loaded Baked Potato</option><option>Potato Nuggets</option><option>Mashed Potato</option><option>Potato Chips</option></select>
+                    <p class="rating-question">How would you rate us?</p>
+                    <label class="rating-option"><input type="radio" name="rating" value="5" required> ⭐⭐⭐⭐⭐ Excellent</label>
+                    <label class="rating-option"><input type="radio" name="rating" value="4"> ⭐⭐⭐⭐ Good</label>
+                    <label class="rating-option"><input type="radio" name="rating" value="3"> ⭐⭐⭐ Average</label>
+                    <label class="rating-option"><input type="radio" name="rating" value="2"> ⭐⭐ Poor</label>
+                    <label class="rating-option"><input type="radio" name="rating" value="1"> ⭐ Very Poor</label>
+                    <label for="review">Your Review:</label><textarea id="review" name="review" rows="5" placeholder="Write your review here..." maxlength="300" required></textarea>
+                    <label class="recommend-option"><input type="checkbox" name="recommend" value="yes"> I would recommend Potato Bites to others.</label>
+                </fieldset>
+                <div class="form-buttons"><button type="submit">Submit Review</button><button type="reset">Reset</button></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+    <p>© 2026 Potato Bites | Made by GZVA.</p>
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/christructure"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit Potato Bites on Facebook">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/christructure"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Visit Potato Bites on Instagram">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
